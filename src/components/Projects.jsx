@@ -2,19 +2,45 @@ import React from 'react';
 
 const projects = [
     {
-        title: "E-Commerce Dashboard",
-        description: "A comprehensive dashboard for managing online stores with real-time analytics.",
-        tags: ["React", "Tailwind", "Recharts"]
+        title: "Vehicle License Plate Recognition",
+        description: "ML-based system to detect and track license plates in video frames, addressing the challenge of moving platforms.",
+        tags: ["Machine Learning", "Python", "Computer Vision"]
     },
     {
-        title: "Social Media App",
-        description: "Connect with friends and share moments in a beautiful glassmorphism interface.",
-        tags: ["Next.js", "Firebase", "Framer Motion"]
+        title: "The Powder Legacy",
+        description: "Responsive e-commerce site for organic powders with animations, payments (Razorpay), and post-order management (Ecwid).",
+        tags: ["React", "Tailwind CSS", "Supabase", "Razorpay"],
+        link: "https://www.thepowderlegacy.in/"
     },
     {
-        title: "AI Image Generator",
-        description: "Generate stunning artwork using the latest stable diffusion models.",
-        tags: ["Python", "React", "FastAPI"]
+        title: "Skull Engine Studio",
+        description: "Service-based website for marketing and animation with themed sections and EmailJS integration.",
+        tags: ["React", "Tailwind CSS", "EmailJS"],
+        link: "https://www.skullenginestudio.in/"
+    },
+    {
+        title: "Gold Center - Web App",
+        description: "Web app for a gold shop to manage rates, staff, billing, and custom gold making calculations. WhatsApp integration.",
+        tags: ["React", "Firebase", "Math Logic"],
+        link: "https://goldrush-one.vercel.app/"
+    },
+    {
+        title: "Daily Tools",
+        description: "Web services hub with online tools. AI models/Python scripts on backend (Railway) and React frontend (Vercel).",
+        tags: ["React", "Python", "AI Models"],
+        link: "https://dailytools1.vercel.app/"
+    },
+    {
+        title: "Farm Cart - Mobile App",
+        description: "Mobile app connecting farmers and users for organic produce. Features direct buying/selling.",
+        tags: ["React Native", "Expo Go", "Firebase"],
+        link: "https://github.com/geethasandesh/farmcart"
+    },
+    {
+        title: "Sangeeth - Music App",
+        description: "Personal music streaming app using Expo and Firebase for playlist management and playback.",
+        tags: ["React Native", "Expo Go", "Firebase"],
+        link: "https://github.com/geethasandesh/sangeeth"
     }
 ];
 

@@ -16,10 +16,15 @@ const HeroSection = () => {
                 I'm <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-indigo-500">Geetha Sandesh</span>
             </h1>
 
-            <div className="text-3xl md:text-6xl font-medium text-gray-300 space-y-2 mb-12 animate-fade-in-up delay-200">
-                <p>Ai & Ml Engineer</p>
-                <p>Software Developer</p>
+            <div className="text-3xl md:text-5xl font-medium text-gray-300 space-y-2 mb-8 animate-fade-in-up delay-200">
+                <p>Software Engineer</p>
+                <p>AI & ML Enthusiast</p>
             </div>
+
+            <p className="text-gray-400 max-w-2xl mb-12 text-lg leading-relaxed animate-fade-in-up delay-200">
+                AI & ML Enthusiast and results-driven Software Engineer with a strong foundation in JavaScript, React, React Native, and Node.js.
+                Passionate about developing scalable web and mobile applications and building modern UI/UX interfaces.
+            </p>
 
             {/* Buttons */}
             <div className="flex flex-wrap gap-6 animate-fade-in-up delay-300">

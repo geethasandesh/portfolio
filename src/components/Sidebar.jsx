@@ -27,13 +27,13 @@ const Sidebar = () => {
                 <div className="w-full text-left space-y-4">
                     <div>
                         <p className="text-gray-400 text-sm mb-1">Specialization:</p>
-                        <p className="font-semibold text-white">Full Stack Developer</p>
-                        <p className="font-semibold text-white">UI/UX Designer</p>
+                        <p className="font-semibold text-white">Software Engineer</p>
+                        <p className="font-semibold text-white">AI & ML Enthusiast</p>
                     </div>
                     <div className="space-y-3">
                         <div>
                             <p className="text-gray-400 text-sm mb-1">Based in:</p>
-                            <p className="font-semibold text-white">San Francisco, USA</p>
+                            <p className="font-semibold text-white">Hyderabad, Telangana</p>
                         </div>
                         {/* Icons added to Based In section as requested */}
                         <div className="flex gap-3 text-gray-300">
@@ -44,8 +44,13 @@ const Sidebar = () => {
                         </div>
                     </div>
                 </div>
-
+                <div className="pt-4 border-t border-white/10 w-full">
+                    <p className="text-gray-400 text-sm mb-1">Contact:</p>
+                    <p className="text-white text-sm">+91-8522997578</p>
+                    <p className="text-white text-sm break-all">geethasandesh09@gmail.com</p>
+                </div>
             </div>
+
         </div>
     );
 };

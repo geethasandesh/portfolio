@@ -5,6 +5,9 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Experience from './components/Experience';
+import Skills from './components/Skills';
+import Education from './components/Education';
 
 function App() {
   return (
@@ -14,9 +17,12 @@ function App() {
         <Navbar />
         <div id="content" className="p-4 md:p-8 lg:p-12 space-y-20 pb-20">
           <HeroSection />
+          <Experience />
           <div id="projects">
             <Projects />
           </div>
+          <Skills />
+          <Education />
           <div id="contact">
             <Contact />
           </div>
