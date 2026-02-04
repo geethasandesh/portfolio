@@ -1,0 +1,44 @@
+import React from 'react';
+
+const HeroSection = () => {
+    return (
+        <div id="home" className="min-h-[90vh] flex flex-col justify-center px-4 md:px-12">
+
+            {/* Badge */}
+            <div className="mb-8 animate-fade-in-up">
+                <span className="inline-flex items-center gap-2 px-6 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-sm md:text-base font-medium text-gray-200">
+                    Hello There! <span className="animate-wave">👋</span>
+                </span>
+            </div>
+
+            {/* Headline */}
+            <h1 className="text-6xl md:text-8xl font-bold mb-6 tracking-tight animate-fade-in-up delay-100">
+                I'm <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-indigo-500">Geetha Sandesh</span>
+            </h1>
+
+            <div className="text-3xl md:text-6xl font-medium text-gray-300 space-y-2 mb-12 animate-fade-in-up delay-200">
+                <p>Ai & Ml Engineer</p>
+                <p>Software Developer</p>
+            </div>
+
+            {/* Buttons */}
+            <div className="flex flex-wrap gap-6 animate-fade-in-up delay-300">
+                <button className="flex items-center gap-2 px-8 py-4 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition-colors group">
+                    <span className="font-semibold text-lg">&lt;/&gt;</span>
+                    <span className="font-medium">My Works</span>
+                </button>
+
+                <button className="flex items-center gap-2 px-8 py-4 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition-colors group">
+                    {/* Placeholder Download Icon */}
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 group-hover:translate-y-1 transition-transform">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                    </svg>
+                    <span className="font-medium">Download CV</span>
+                </button>
+            </div>
+
+        </div>
+    );
+};
+
+export default HeroSection;
