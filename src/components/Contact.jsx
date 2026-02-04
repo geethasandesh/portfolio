@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
     return (
         <div className="py-20 max-w-4xl mx-auto">
-            <div className="backdrop-blur-xl bg-white/10 border border-white/20 shadow-xl rounded-2xl p-6 text-center">
+            <div className="backdrop-blur-xl bg-white/10 border border-white/60 shadow-xl rounded-2xl p-6 text-center">
                 <h2 className="text-3xl font-bold mb-6">Let's Work Together</h2>
                 <p className="text-gray-300 mb-8 max-w-xl mx-auto">
                     Have a project in mind? I'm always open to discussing new opportunities and interesting ideas.

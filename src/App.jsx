@@ -17,10 +17,10 @@ function App() {
         <Navbar />
         <div id="content" className="p-4 md:p-8 lg:p-12 space-y-20 pb-20">
           <HeroSection />
-          <Experience />
           <div id="projects">
             <Projects />
           </div>
+          <Experience />
           <Skills />
           <Education />
           <div id="contact">

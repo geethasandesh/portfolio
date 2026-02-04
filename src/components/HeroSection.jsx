@@ -12,7 +12,7 @@ const HeroSection = () => {
             </div>
 
             {/* Headline */}
-            <h1 className="text-6xl md:text-8xl font-bold mb-6 tracking-tight animate-fade-in-up delay-100">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight animate-fade-in-up delay-100 whitespace-nowrap">
                 I'm <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-indigo-500">Geetha Sandesh</span>
             </h1>
 
