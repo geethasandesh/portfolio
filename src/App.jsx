@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react'; // Trigger update
 import Layout from './components/Layout';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';

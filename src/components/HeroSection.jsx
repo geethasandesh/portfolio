@@ -1,4 +1,4 @@
-import React from 'react';
+import resume from '../assets/sandesh_resume.pdf';
 
 const HeroSection = () => {
     return (
@@ -17,29 +17,33 @@ const HeroSection = () => {
             </h1>
 
             <div className="text-3xl md:text-5xl font-medium text-gray-300 space-y-2 mb-8 animate-fade-in-up delay-200">
-                <p>Software Engineer</p>
-                <p>AI & ML Enthusiast</p>
+                <p>Software Developer</p>
+                <p>AI & ML Engineer</p>
             </div>
 
             <p className="text-gray-400 max-w-2xl mb-12 text-lg leading-relaxed animate-fade-in-up delay-200">
-                AI & ML Enthusiast and results-driven Software Engineer with a strong foundation in JavaScript, React, React Native, and Node.js.
+                AI & ML Engineer and results-driven Software Developer with a strong foundation in JavaScript, React, React Native, and Node.js.
                 Passionate about developing scalable web and mobile applications and building modern UI/UX interfaces.
             </p>
 
             {/* Buttons */}
             <div className="flex flex-wrap gap-6 animate-fade-in-up delay-300">
-                <button className="flex items-center gap-2 px-8 py-4 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition-colors group">
-                    <span className="font-semibold text-lg">&lt;/&gt;</span>
-                    <span className="font-medium">My Works</span>
-                </button>
+                <a href="#contact" className="flex items-center gap-2 px-8 py-4 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition-colors group">
+                    <span className="font-semibold text-lg">/</span>
+                    <span className="font-medium">Contact</span>
+                </a>
 
-                <button className="flex items-center gap-2 px-8 py-4 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition-colors group">
+                <a
+                    href={resume}
+                    download="Geetha_Sandesh_Resume.pdf"
+                    className="flex items-center gap-2 px-8 py-4 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition-colors group cursor-pointer"
+                >
                     {/* Placeholder Download Icon */}
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 group-hover:translate-y-1 transition-transform">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                     </svg>
                     <span className="font-medium">Download CV</span>
-                </button>
+                </a>
             </div>
 
         </div>

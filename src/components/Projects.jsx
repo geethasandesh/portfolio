@@ -1,6 +1,14 @@
 import React from 'react';
 import { FaExternalLinkAlt, FaGithub, FaLock } from 'react-icons/fa';
 
+import vcrImg from '../assets/projects/vcr.jpg';
+import dailyToolsImg from '../assets/projects/dailytools.png';
+import tplImg from '../assets/projects/tpl.png';
+import goldImg from '../assets/projects/gold.png';
+import sklImg from '../assets/projects/skl.png';
+import farmCartImg from '../assets/projects/farmkart.png';
+import sangeethImg from '../assets/projects/sangeeth.png';
+
 const projectCategories = [
     {
         title: "AI & Machine Learning",
@@ -9,13 +17,15 @@ const projectCategories = [
                 title: "Vehicle License Plate Recognition",
                 description: "ML-based system to detect and track license plates in video frames. Solves the challenge of identifying vehicles from moving platforms using Computer Vision.",
                 tags: ["Python", "OpenCV", "Machine Learning"],
-                link: null // Academic project
+                link: null, // Academic project
+                image: vcrImg
             },
             {
                 title: "Daily Tools - AI Services",
                 description: "Web services hub powered by backend AI models and Python scripts. Provides various online tools for productivity and automation.",
                 tags: ["Python", "AI Models", "Railway", "React"],
-                link: "https://dailytools1.vercel.app/"
+                link: "https://dailytools1.vercel.app/",
+                image: dailyToolsImg
             }
         ]
     },
@@ -26,19 +36,22 @@ const projectCategories = [
                 title: "The Powder Legacy",
                 description: "Full-stack e-commerce platform for organic powders. Features smooth animations, Razorpay payment integration, and a separate admin dashboard.",
                 tags: ["React", "Supabase", "Tailwind", "Razorpay"],
-                link: "https://www.thepowderlegacy.in/"
+                link: "https://www.thepowderlegacy.in/",
+                image: tplImg
             },
             {
                 title: "Gold Center App",
                 description: "Business management app for gold shops. Handles live rates, staff management, and complex gold making calculations with billing.",
                 tags: ["React", "Firebase", "Logic & Math"],
-                link: "https://goldrush-one.vercel.app/"
+                link: "https://goldrush-one.vercel.app/",
+                image: goldImg
             },
             {
                 title: "Skull Engine Studio",
                 description: "Immersive service website for a marketing and animation studio. Features themed sections to match different service vibes.",
                 tags: ["React", "Tailwind CSS", "EmailJS"],
-                link: "https://www.skullenginestudio.in/"
+                link: "https://www.skullenginestudio.in/",
+                image: sklImg
             }
         ]
     },
@@ -49,13 +62,15 @@ const projectCategories = [
                 title: "Farm Cart",
                 description: "Direct-to-consumer marketplace app connecting farmers with buyers for fresh organic produce. Bridges the gap between source and table.",
                 tags: ["React Native", "Expo Go", "Firebase"],
-                link: "https://github.com/geethasandesh/farmcart"
+                link: "https://github.com/geethasandesh/farmcart",
+                image: farmCartImg
             },
             {
                 title: "Sangeeth Music",
                 description: "Personalized music streaming application. Allows users to manage playlists and stream songs seamlessly via Firebase.",
                 tags: ["React Native", "Expo Go", "Firebase"],
-                link: "https://github.com/geethasandesh/sangeeth"
+                link: "https://github.com/geethasandesh/sangeeth",
+                image: sangeethImg
             }
         ]
     }
@@ -69,7 +84,7 @@ const Projects = () => {
                 <div className="inline-block px-4 py-1.5 mb-4 border border-white/60 rounded-full bg-white/5 backdrop-blur-sm text-sm font-medium text-gray-300">
                     Projects
                 </div>
-                <h2 className="text-4xl md:text-6xl font-bold text-white tracking-tight">
+                <h2 className="text-4xl md:text-4xl font-semibold text-white tracking-tight">
                     Check out my featured projects
                 </h2>
             </div>
@@ -88,12 +103,14 @@ const Projects = () => {
                                     key={index}
                                     className="group relative grid grid-cols-1 md:grid-cols-2 bg-white/5 backdrop-blur-sm border border-white/60 rounded-3xl overflow-hidden hover:bg-white/10 transition-colors duration-300"
                                 >
-                                    {/* Image Side (Neutral Placeholder) */}
-                                    <div className="h-64 md:h-auto bg-white/5 relative overflow-hidden flex items-center justify-center border-r border-white/10">
-
-                                        {/* Mock UI Element */}
-                                        <div className="w-3/4 h-3/4 bg-black/40 backdrop-blur-md rounded-xl border border-white/20 shadow-2xl flex items-center justify-center group-hover:scale-105 transition-transform duration-500">
-                                            <span className="text-gray-500 font-bold text-lg">{project.title}</span>
+                                    {/* Image Side */}
+                                    <div className="h-64 md:h-auto relative overflow-hidden flex items-center justify-center border-r border-white/10 bg-black/20 p-4 md:p-8 group-hover:bg-black/30 transition-colors">
+                                        <div className="w-full h-auto aspect-video rounded-xl border border-white/20 overflow-hidden shadow-2xl relative group-hover:scale-105 transition-transform duration-500">
+                                            <img
+                                                src={project.image}
+                                                alt={project.title}
+                                                className="w-full h-full object-cover"
+                                            />
                                         </div>
                                     </div>
 

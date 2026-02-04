@@ -4,9 +4,9 @@ import {
     SiReact, SiTailwindcss,
     SiNodedotjs, SiExpress, SiFirebase, SiSupabase,
     SiGit, SiGithub, SiPostman, SiVercel, SiExpo,
-    SiMongodb, SiN8n, SiFigma
+    SiMongodb, SiFigma
 } from 'react-icons/si';
-import { FaJava } from 'react-icons/fa';
+import { FaJava, FaProjectDiagram } from 'react-icons/fa';
 import { VscCode } from 'react-icons/vsc';
 
 const skills = [
@@ -24,7 +24,7 @@ const skills = [
     { name: "Tailwind CSS", icon: <SiTailwindcss className="text-cyan-300" /> },
     { name: "Firebase", icon: <SiFirebase className="text-yellow-500" /> },
     { name: "Supabase", icon: <SiSupabase className="text-emerald-400" /> },
-    { name: "n8n", icon: <SiN8n className="text-red-500" /> },
+    { name: "n8n", icon: <FaProjectDiagram className="text-red-500" /> },
     { name: "Git", icon: <SiGit className="text-red-500" /> },
     { name: "GitHub", icon: <SiGithub className="text-white" /> },
     { name: "VS Code", icon: <VscCode className="text-blue-400" /> },

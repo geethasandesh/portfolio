@@ -27,8 +27,8 @@ const Sidebar = () => {
                 <div className="w-full text-left space-y-4">
                     <div>
                         <p className="text-gray-400 text-sm mb-1">Specialization:</p>
-                        <p className="font-semibold text-white">Software Engineer</p>
-                        <p className="font-semibold text-white">AI & ML Enthusiast</p>
+                        <p className="font-semibold text-white">Software Developer</p>
+                        <p className="font-semibold text-white">AI & ML Engineer</p>
                     </div>
                     <div className="space-y-3">
                         <div>
@@ -44,11 +44,7 @@ const Sidebar = () => {
                         </div>
                     </div>
                 </div>
-                <div className="pt-4 border-t border-white/10 w-full">
-                    <p className="text-gray-400 text-sm mb-1">Contact:</p>
-                    <p className="text-white text-sm">+91-8522997578</p>
-                    <p className="text-white text-sm break-all">geethasandesh09@gmail.com</p>
-                </div>
+
             </div>
 
         </div>

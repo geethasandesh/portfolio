@@ -1,6 +1,13 @@
 import React from 'react';
 import { FaCalendarAlt, FaExternalLinkAlt, FaBriefcase, FaCheckCircle, FaBuilding } from 'react-icons/fa';
 
+import artihcus1 from '../assets/Experience/artihcus1.png';
+import artihcus2 from '../assets/Experience/artihcus2.jpg';
+import artihcus3 from '../assets/Experience/artihcus3.jpg';
+import artihcusIntern1 from '../assets/Experience/artihcusintern1.jpg';
+import artihcusIntern2 from '../assets/Experience/artihcusintern2.jpg';
+import grahmindImg from '../assets/Experience/grahmind.png';
+
 const experiences = [
     {
         role: "Associate Software Developer",
@@ -13,8 +20,8 @@ const experiences = [
             "Integrated machine learning modules for internal tools, combining AI with business systems.",
             "Developing packaging application for space optimization and logistics efficiency."
         ],
-        link: "#", // Placeholder
-        images: [1, 2, 3] // Placeholders
+        link: "https://artihcus.com/",
+        images: [artihcus1, artihcus2, artihcus3]
     },
     {
         role: "Intern",
@@ -27,8 +34,8 @@ const experiences = [
             "Integrated Warehouse Management functionality with AI solutions.",
             "Learnt SAP Basics and applied them to understanding enterprise workflows."
         ],
-        link: "#",
-        images: [1, 2]
+        link: "https://artihcus.com/",
+        images: [artihcusIntern1, artihcusIntern2]
     },
     {
         role: "Co-Founder",
@@ -40,7 +47,7 @@ const experiences = [
             "Spearheading the development of the company's core products and services."
         ],
         link: "https://grahmind.com",
-        images: [1]
+        images: [grahmindImg]
     }
 ];
 
@@ -102,10 +109,14 @@ const Experience = () => {
                                 {/* Bottom Row: Images & Link */}
                                 <div className="flex flex-col md:flex-row justify-between items-end gap-6 pt-4">
                                     {/* Image Placeholders */}
-                                    <div className="flex gap-3 w-full md:w-auto overflow-x-auto pb-2 md:pb-0 no-scrollbar">
+                                    <div className="flex gap-4 w-full md:w-auto overflow-x-auto pb-4 md:pb-0 no-scrollbar">
                                         {exp.images.map((img, i) => (
-                                            <div key={i} className="w-24 h-16 md:w-32 md:h-20 flex-shrink-0 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center hover:border-white/40 transition-colors cursor-pointer">
-                                                <span className="text-xs text-gray-600">Img {i + 1}</span>
+                                            <div key={i} className="w-32 h-24 md:w-40 md:h-28 flex-shrink-0 rounded-xl border border-white/20 overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+                                                <img
+                                                    src={img}
+                                                    alt={`${exp.company} highlight ${i + 1}`}
+                                                    className="w-full h-full object-cover"
+                                                />
                                             </div>
                                         ))}
                                     </div>
