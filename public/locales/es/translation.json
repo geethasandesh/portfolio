@@ -1,0 +1,108 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "projects": "Proyectos",
+        "experience": "Experiencia",
+        "skills": "Habilidades",
+        "education": "Educación",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "badge": "¡Hola!",
+        "im": "Soy",
+        "role1": "Desarrollador de Software",
+        "role2": "Ingeniero de IA y ML",
+        "description": "Ingeniero de IA y ML y desarrollador de software orientado a resultados con una sólida base en JavaScript, React, React Native y Node.js. Apasionado por desarrollar aplicaciones web y móviles escalables y construir interfaces UI/UX modernas.",
+        "contactBtn": "Contactar",
+        "downloadBtn": "Descargar CV"
+    },
+    "skills": {
+        "badge": "Habilidades",
+        "title": "Competencia Técnica"
+    },
+    "projects": {
+        "badge": "Proyectos",
+        "title": "Mira mis proyectos destacados",
+        "categories": {
+            "ai_ml": "IA y Aprendizaje Automático",
+            "web": "Desarrollo Web",
+            "mobile": "Desarrollo Móvil"
+        },
+        "items": {
+            "vcr": {
+                "title": "Reconocimiento de Matrículas",
+                "description": "Sistema basado en ML para detectar y rastrear matrículas en cuadros de video."
+            },
+            "dailytools": {
+                "title": "Herramientas Diarias - Servicios IA",
+                "description": "Centro de servicios web impulsado por modelos de IA backend y scripts de Python."
+            },
+            "tpl": {
+                "title": "The Powder Legacy",
+                "description": "Plataforma de comercio electrónico full-stack para polvos orgánicos."
+            },
+            "gold": {
+                "title": "Aplicación Gold Center",
+                "description": "Aplicación de gestión empresarial para joyerías."
+            },
+            "skl": {
+                "title": "Skull Engine Studio",
+                "description": "Sitio web de servicios inmersivos para un estudio de marketing y animación."
+            },
+            "farmcart": {
+                "title": "Farm Cart",
+                "description": "Aplicación de mercado directo al consumidor que conecta a agricultores con compradores."
+            },
+            "sangeeth": {
+                "title": "Música Sangeeth",
+                "description": "Aplicación de transmisión de música personalizada a través de Firebase."
+            }
+        }
+    },
+    "experience": {
+        "badge": "Experiencia",
+        "title": "Trayectoria Profesional",
+        "keyAchievements": "Logros Clave",
+        "visitCompany": "Visitar Empresa",
+        "items": {
+            "assoc_dev": {
+                "role": "Desarrollador de Software Asociado",
+                "company": "Artihcus Global Private Limited",
+                "period": "Junio 2025 - Presente",
+                "summary": "Promovido a Ingeniero de Software a tiempo completo tras finalizar con éxito la pasantía.",
+                "achievements": [
+                    "Desarrolló 'Artifact', una herramienta de documentación interna escalable.",
+                    "Colaboró con equipos de diseño y backend.",
+                    "Integración de módulos de aprendizaje automático para herramientas internas.",
+                    "Desarrollo de aplicación de embalaje para la eficiencia logística."
+                ]
+            },
+            "intern": {
+                "role": "Pasante",
+                "company": "Artihcus Global",
+                "period": "Oct 2024 - Junio 2025",
+                "summary": "Experiencia práctica aplicando conceptos de IA/ML a desafíos del mundo real.",
+                "achievements": [
+                    "Representó a Arthicus Global en la Cumbre Nacional de IA.",
+                    "Renovación del sitio web oficial de la empresa.",
+                    "Integración de la funcionalidad de gestión de almacenes con soluciones de IA.",
+                    "Aprendizaje de los conceptos básicos de SAP."
+                ]
+            },
+            "cofounder": {
+                "role": "Cofundador",
+                "company": "Grahmind",
+                "period": "Presente",
+                "summary": "Liderando la visión del producto y el desarrollo de Grahmind.",
+                "achievements": [
+                    "Cofundó Grahmind para proporcionar soluciones innovadoras de IA.",
+                    "Liderando el desarrollo de los productos principales de la empresa."
+                ]
+            }
+        }
+    },
+    "sidebar": {
+        "specialization": "Especialización",
+        "basedIn": "Basado en"
+    }
+}

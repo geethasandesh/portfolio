@@ -1,0 +1,108 @@
+{
+    "nav": {
+        "home": "Startseite",
+        "projects": "Projekte",
+        "experience": "Erfahrung",
+        "skills": "Fähigkeiten",
+        "education": "Ausbildung",
+        "contact": "Kontakt"
+    },
+    "hero": {
+        "badge": "Hallo!",
+        "im": "Ich bin",
+        "role1": "Softwareentwickler",
+        "role2": "KI & ML Ingenieur",
+        "description": "KI & ML Ingenieur und ergebnisorientierter Softwareentwickler mit fundierten Kenntnissen in JavaScript, React, React Native und Node.js. Leidenschaft für die Entwicklung skalierbarer Web- und mobiler Anwendungen und den Aufbau moderner UI/UX-Schnittstellen.",
+        "contactBtn": "Kontaktieren",
+        "downloadBtn": "Lebenslauf laden"
+    },
+    "skills": {
+        "badge": "Fähigkeiten",
+        "title": "Technische Kompetenz"
+    },
+    "projects": {
+        "badge": "Projekte",
+        "title": "Meine Projekte ansehen",
+        "categories": {
+            "ai_ml": "KI & Maschinelles Lernen",
+            "web": "Webentwicklung",
+            "mobile": "Mobile Entwicklung"
+        },
+        "items": {
+            "vcr": {
+                "title": "Nummernschilderkennung",
+                "description": "ML-basiertes System zur Erkennung und Verfolgung von Nummernschildern in Videos."
+            },
+            "dailytools": {
+                "title": "Daily Tools - KI Dienste",
+                "description": "Web-Service-Hub, unterstützt durch Backend-KI-Modelle und Python-Skripte."
+            },
+            "tpl": {
+                "title": "The Powder Legacy",
+                "description": "Full-Stack-E-Commerce-Plattform für organische Pulver."
+            },
+            "gold": {
+                "title": "Gold Center App",
+                "description": "Geschäftsmanagement-App für Goldgeschäfte."
+            },
+            "skl": {
+                "title": "Skull Engine Studio",
+                "description": "Immersive Service-Website für ein Marketing- und Animationsstudio."
+            },
+            "farmcart": {
+                "title": "Farm Cart",
+                "description": "Direkt-an-Verbraucher-Marktplatz-App, die Landwirte mit Käufern verbindet."
+            },
+            "sangeeth": {
+                "title": "Sangeeth Musik",
+                "description": "Personalisierte Musik-Streaming-Anwendung über Firebase."
+            }
+        }
+    },
+    "experience": {
+        "badge": "Erfahrung",
+        "title": "Beruflicher Werdegang",
+        "keyAchievements": "Wichtige Erfolge",
+        "visitCompany": "Firma besuchen",
+        "items": {
+            "assoc_dev": {
+                "role": "Associate Software Developer",
+                "company": "Artihcus Global Private Limited",
+                "period": "Juni 2025 - Heute",
+                "summary": "Beförderung zum Vollzeit-Softwareingenieur nach erfolgreichem Abschluss des Praktikums.",
+                "achievements": [
+                    "Entwicklung von 'Artifact', einem skalierbaren internen Dokumentationstool.",
+                    "Zusammenarbeit mit Design- und Backend-Teams.",
+                    "Integration von Machine-Learning-Modulen für interne Tools.",
+                    "Entwicklung einer Verpackungsanwendung für Logistikeffizienz."
+                ]
+            },
+            "intern": {
+                "role": "Praktikant",
+                "company": "Artihcus Global",
+                "period": "Okt 2024 - Juni 2025",
+                "summary": "Praktische Erfahrung in der Anwendung von KI/ML-Konzepten auf reale Herausforderungen.",
+                "achievements": [
+                    "Vertretung von Arthicus Global auf dem National AI Summit.",
+                    "Umgestaltung der offiziellen Website des Unternehmens.",
+                    "Integration der Lagerverwaltungsfunktionalität mit KI-Lösungen.",
+                    "Erlernung von SAP-Grundlagen."
+                ]
+            },
+            "cofounder": {
+                "role": "Mitbegründer",
+                "company": "Grahmind",
+                "period": "Heute",
+                "summary": "Leitung der Produktvision und Entwicklung von Grahmind.",
+                "achievements": [
+                    "Mitgründung von Grahmind zur Bereitstellung innovativer KI-Lösungen.",
+                    "Federführend bei der Entwicklung der Kernprodukte des Unternehmens."
+                ]
+            }
+        }
+    },
+    "sidebar": {
+        "specialization": "Spezialisierung",
+        "basedIn": "Wohnhaft in"
+    }
+}

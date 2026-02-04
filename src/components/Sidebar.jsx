@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import profileImg from '../assets/1739438380694.jpg';
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa';
 
@@ -6,6 +7,8 @@ import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa';
 const PROFILE_IMAGE = profileImg;
 
 const Sidebar = () => {
+    const { t } = useTranslation();
+
     return (
         <div className="w-full lg:w-1/4 lg:h-full p-4 z-20 flex items-center justify-center pointer-events-none">
             {/* Reduced height (h-[80vh]), reduced padding (p-6), and flex alignment */}
@@ -26,13 +29,13 @@ const Sidebar = () => {
                 {/* Profile Info */}
                 <div className="w-full text-left space-y-4">
                     <div>
-                        <p className="text-gray-400 text-sm mb-1">Specialization:</p>
-                        <p className="font-semibold text-white">Software Developer</p>
-                        <p className="font-semibold text-white">AI & ML Engineer</p>
+                        <p className="text-gray-400 text-sm mb-1">{t('sidebar.specialization')}:</p>
+                        <p className="font-semibold text-white">{t('hero.role1')}</p>
+                        <p className="font-semibold text-white">{t('hero.role2')}</p>
                     </div>
                     <div className="space-y-3">
                         <div>
-                            <p className="text-gray-400 text-sm mb-1">Based in:</p>
+                            <p className="text-gray-400 text-sm mb-1">{t('sidebar.basedIn')}:</p>
                             <p className="font-semibold text-white">Hyderabad, Telangana</p>
                         </div>
                         {/* Icons added to Based In section as requested */}
@@ -45,6 +48,7 @@ const Sidebar = () => {
                     </div>
                 </div>
 
+                {/* Contact section was removed as per request */}
             </div>
 
         </div>

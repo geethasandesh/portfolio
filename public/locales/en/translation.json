@@ -1,0 +1,108 @@
+{
+    "nav": {
+        "home": "Home",
+        "projects": "Projects",
+        "experience": "Experience",
+        "skills": "Skills",
+        "education": "Education",
+        "contact": "Contact"
+    },
+    "hero": {
+        "badge": "Hello There!",
+        "im": "I'm",
+        "role1": "Software Developer",
+        "role2": "AI & ML Engineer",
+        "description": "AI & ML Engineer and results-driven Software Developer with a strong foundation in JavaScript, React, React Native, and Node.js. Passionate about developing scalable web and mobile applications and building modern UI/UX interfaces.",
+        "contactBtn": "Contact",
+        "downloadBtn": "Download CV"
+    },
+    "skills": {
+        "badge": "Skills",
+        "title": "Technical Proficiency"
+    },
+    "projects": {
+        "badge": "Projects",
+        "title": "Check out my featured projects",
+        "categories": {
+            "ai_ml": "AI & Machine Learning",
+            "web": "Web Development",
+            "mobile": "Mobile Development"
+        },
+        "items": {
+            "vcr": {
+                "title": "Vehicle License Plate Recognition",
+                "description": "ML-based system to detect and track license plates in video frames. Solves the challenge of identifying vehicles from moving platforms using Computer Vision."
+            },
+            "dailytools": {
+                "title": "Daily Tools - AI Services",
+                "description": "Web services hub powered by backend AI models and Python scripts. Provides various online tools for productivity and automation."
+            },
+            "tpl": {
+                "title": "The Powder Legacy",
+                "description": "Full-stack e-commerce platform for organic powders. Features smooth animations, Razorpay payment integration, and a separate admin dashboard."
+            },
+            "gold": {
+                "title": "Gold Center App",
+                "description": "Business management app for gold shops. Handles live rates, staff management, and complex gold making calculations with billing."
+            },
+            "skl": {
+                "title": "Skull Engine Studio",
+                "description": "Immersive service website for a marketing and animation studio. Features themed sections to match different service vibes."
+            },
+            "farmcart": {
+                "title": "Farm Cart",
+                "description": "Direct-to-consumer marketplace app connecting farmers with buyers for fresh organic produce. Bridges the gap between source and table."
+            },
+            "sangeeth": {
+                "title": "Sangeeth Music",
+                "description": "Personalized music streaming application. Allows users to manage playlists and stream songs seamlessly via Firebase."
+            }
+        }
+    },
+    "experience": {
+        "badge": "Experience",
+        "title": "Professional Journey",
+        "keyAchievements": "Key Achievements",
+        "visitCompany": "Visit Company",
+        "items": {
+            "assoc_dev": {
+                "role": "Associate Software Developer",
+                "company": "Artihcus Global Private Limited",
+                "period": "June 2025 - Present",
+                "summary": "Promoted to full-time Software Engineer following successful completion of internship, recognized for strong technical contribution and problem-solving skills.",
+                "achievements": [
+                    "Developed 'Artifact', a scalable internal documentation tool using React and Node.js with Firebase integration.",
+                    "Collaborated with design and backend teams to implement scalable, secure, and maintainable systems.",
+                    "Integrated machine learning modules for internal tools, combining AI with business systems.",
+                    "Developing packaging application for space optimization and logistics efficiency."
+                ]
+            },
+            "intern": {
+                "role": "Intern",
+                "company": "Artihcus Global",
+                "period": "Oct 2024 - June 2025",
+                "summary": "Gained hands-on experience applying AI/ML concepts to real-world challenges and revamped the company's digital presence.",
+                "achievements": [
+                    "Represented Arthicus Global at the National AI Summit organized by HYSEA on Feb 11, 2025, at Novotel, Hyderabad.",
+                    "Revamped company's official website implementing scalable architecture using React and Firebase.",
+                    "Integrated Warehouse Management functionality with AI solutions.",
+                    "Learnt SAP Basics and applied them to understanding enterprise workflows."
+                ]
+            },
+            "cofounder": {
+                "role": "Co-Founder",
+                "company": "Grahmind",
+                "period": "Present",
+                "summary": "Leading the product vision and development of Grahmind, focusing on AI-driven solutions and market strategy.",
+                "achievements": [
+                    "Co-founded Grahmind to provide innovative AI solutions.",
+                    "Spearheading the development of the company's core products and services."
+                ]
+            }
+        }
+    },
+    "sidebar": {
+        "specialization": "Specialization",
+        "basedIn": "Based in"
+    }
+}

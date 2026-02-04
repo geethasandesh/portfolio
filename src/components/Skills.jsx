@@ -33,16 +33,20 @@ const skills = [
     { name: "Vercel", icon: <SiVercel className="text-white" /> },
 ];
 
+import { useTranslation } from 'react-i18next'; // Import hook
+
 const Skills = () => {
+    const { t } = useTranslation();
+
     return (
         <div className="py-20" id="skills">
             {/* Section Header */}
             <div className="mb-16">
                 <div className="inline-block px-4 py-1.5 mb-4 border border-white/60 rounded-full bg-white/5 backdrop-blur-sm text-sm font-medium text-gray-300">
-                    Skills
+                    {t('skills.badge')}
                 </div>
                 <h2 className="text-4xl md:text-5xl font-bold text-white tracking-tight">
-                    Technical Proficiency
+                    {t('skills.title')}
                 </h2>
             </div>
 
