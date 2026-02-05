@@ -2,12 +2,12 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { FaCalendarAlt, FaExternalLinkAlt } from 'react-icons/fa';
 
-import artihcus1 from '../assets/experience/artihcus11.jpg';
-import artihcus2 from '../assets/experience/artihcus2.jpg';
-import artihcus3 from '../assets/experience/artihcus3.jpg';
-import artihcusIntern1 from '../assets/experience/artihcusintern1.jpg';
-import artihcusIntern2 from '../assets/experience/artihcusintern2.jpg';
-import grahmindImg from '../assets/experience/grahmind.png';
+import artihcus1 from '../assets/company_experience/artihcus11.jpg';
+import artihcus2 from '../assets/company_experience/artihcus2.jpg';
+import artihcus3 from '../assets/company_experience/artihcus3.jpg';
+import artihcusIntern1 from '../assets/company_experience/artihcusintern1.jpg';
+import artihcusIntern2 from '../assets/company_experience/artihcusintern2.jpg';
+import grahmindImg from '../assets/company_experience/grahmind.png';
 
 const experienceIds = [
     {
