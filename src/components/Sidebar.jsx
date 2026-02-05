@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import profileImg from '../assets/1739438380694.jpg';
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 // Using the user-provided image
 const PROFILE_IMAGE = profileImg;
@@ -40,10 +40,9 @@ const Sidebar = () => {
                         </div>
                         {/* Icons added to Based In section as requested */}
                         <div className="flex gap-3 text-gray-300">
-                            <a href="#" className="hover:text-blue-400 transition-colors"><FaTwitter size={20} /></a>
-                            <a href="#" className="hover:text-pink-500 transition-colors"><FaInstagram size={20} /></a>
-                            <a href="#" className="hover:text-blue-600 transition-colors"><FaLinkedin size={20} /></a>
-                            <a href="#" className="hover:text-white transition-colors"><FaGithub size={20} /></a>
+                            <a href="https://www.instagram.com/zeroograavity?igsh=MWl4dmE5dXB0cTM5dg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition-colors"><FaInstagram size={20} /></a>
+                            <a href="https://www.linkedin.com/in/geetha-sandesh-nomula-591186259/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors"><FaLinkedin size={20} /></a>
+                            <a href="https://github.com/geethasandesh" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><FaGithub size={20} /></a>
                         </div>
                     </div>
                 </div>

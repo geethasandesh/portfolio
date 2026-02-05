@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { FaGlobe } from 'react-icons/fa';
+import { FaLanguage } from 'react-icons/fa';
 
 const Navbar = () => {
     const { t, i18n } = useTranslation();
@@ -40,7 +40,7 @@ const Navbar = () => {
                             onClick={() => setIsLangOpen(!isLangOpen)}
                             className="p-3 rounded-full border border-white/60 bg-black/20 backdrop-blur-md hover:bg-white/10 transition-colors text-white"
                         >
-                            <FaGlobe size={20} />
+                            <FaLanguage size={24} />
                         </button>
 
                         {isLangOpen && (
@@ -66,7 +66,7 @@ const Navbar = () => {
                         onClick={() => setIsLangOpen(!isLangOpen)}
                         className="flex items-center gap-2 px-4 py-2 rounded-full border border-white/60 bg-black/20 backdrop-blur-md text-white text-sm"
                     >
-                        <FaGlobe />
+                        <FaLanguage size={20} />
                         <span>Language</span>
                     </button>
                     {isLangOpen && (
@@ -84,7 +84,7 @@ const Navbar = () => {
                     )}
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

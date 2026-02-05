@@ -1,38 +1,70 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import resume from '../assets/sandesh_resume.pdf';
 
 const HeroSection = () => {
     const { t } = useTranslation();
+    const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
+    const [isHovering, setIsHovering] = useState(false);
+
+    const handleMouseMove = (e) => {
+        setCursorPos({ x: e.clientX, y: e.clientY });
+    };
 
     return (
         <div id="home" className="min-h-[90vh] flex flex-col justify-center px-4 md:px-12">
 
             {/* Badge */}
             <div className="mb-8 animate-fade-in-up">
-                <span className="inline-flex items-center gap-2 px-6 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-sm md:text-base font-medium text-gray-200">
+                <a
+                    href="https://www.linkedin.com/in/geetha-sandesh-nomula-591186259/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-6 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-sm md:text-base font-medium text-gray-200 hover:bg-white/10 transition-colors"
+                >
                     {t('hero.badge')} <span className="animate-wave">👋</span>
-                </span>
+                </a>
             </div>
 
-            {/* Headline */}
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight animate-fade-in-up delay-100 whitespace-nowrap">
-                {t('hero.im')} <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-indigo-500">Geetha Sandesh</span>
-            </h1>
+            {/* Hoverable Text Section */}
+            <div
+                onMouseEnter={() => setIsHovering(true)}
+                onMouseLeave={() => setIsHovering(false)}
+                onMouseMove={handleMouseMove}
+                className={`transition-all duration-300 ${isHovering ? 'cursor-none' : ''}`}
+            >
+                {/* Headline */}
+                <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight animate-fade-in-up delay-100 whitespace-nowrap">
+                    {t('hero.im')} <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-indigo-500">Geetha Sandesh</span>
+                </h1>
 
-            <div className="text-3xl md:text-5xl font-medium text-gray-300 space-y-2 mb-8 animate-fade-in-up delay-200">
-                <p>{t('hero.role1')}</p>
-                <p>{t('hero.role2')}</p>
+                <div className="text-3xl md:text-5xl font-medium text-gray-300 space-y-2 mb-8 animate-fade-in-up delay-200">
+                    <p>{t('hero.role1')}</p>
+                    <p>{t('hero.role2')}</p>
+                </div>
+
+                <p className="text-gray-400 max-w-2xl mb-12 text-lg leading-relaxed animate-fade-in-up delay-200">
+                    {t('hero.description')}
+                </p>
             </div>
 
-            <p className="text-gray-400 max-w-2xl mb-12 text-lg leading-relaxed animate-fade-in-up delay-200">
-                {t('hero.description')}
-            </p>
+            {/* Custom Waving Cursor */}
+            {isHovering && (
+                <div
+                    style={{
+                        left: `${cursorPos.x}px`,
+                        top: `${cursorPos.y}px`,
+                        transform: 'translate(-50%, -50%)'
+                    }}
+                    className="fixed pointer-events-none z-50 text-4xl animate-cursor-wave"
+                >
+                    👋
+                </div>
+            )}
 
             {/* Buttons */}
             <div className="flex flex-wrap gap-6 animate-fade-in-up delay-300">
                 <a href="#contact" className="flex items-center gap-2 px-8 py-4 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition-colors group">
-                    <span className="font-semibold text-lg">/</span>
                     <span className="font-medium">{t('hero.contactBtn')}</span>
                 </a>
 
