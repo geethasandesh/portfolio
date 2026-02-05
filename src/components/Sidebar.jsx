@@ -12,7 +12,7 @@ const Sidebar = () => {
     return (
         <div className="w-full lg:w-1/4 lg:h-full p-4 z-20 flex items-center justify-center pointer-events-none">
             {/* Reduced height (h-[80vh]), reduced padding (p-6), and flex alignment */}
-            <div className="w-full h-[85vh] flex flex-col justify-between items-center text-center p-6 border border-white/60 bg-black/10 backdrop-blur-sm shadow-2xl rounded-2xl relative pointer-events-auto">
+            <div className="w-full h-auto lg:h-[85vh] flex flex-col justify-between items-center text-center p-6 border border-white/60 bg-black/10 backdrop-blur-sm shadow-2xl rounded-2xl relative pointer-events-auto">
 
                 {/* Profile Header */}
                 <div className="flex flex-col items-center w-full">

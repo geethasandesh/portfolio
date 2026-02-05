@@ -13,7 +13,7 @@ function App() {
   return (
     <Layout>
       {/* Right Content Area (Now first in DOM for Left placement) */}
-      <div className="flex-1 lg:max-w-[75%] lg:h-full lg:overflow-y-auto no-scrollbar scroll-smooth pointer-events-auto">
+      <div id="scroll-container" className="flex-1 lg:max-w-[75%] lg:h-full lg:overflow-y-auto no-scrollbar scroll-smooth pointer-events-auto">
         <Navbar />
         <div id="content" className="p-4 md:p-8 lg:p-12 space-y-20 pb-20">
           <HeroSection />
