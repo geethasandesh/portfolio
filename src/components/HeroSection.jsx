@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import resume from '../assets/sandesh_resume.pdf';
+import GradientText from './GradientText';
 
 const HeroSection = () => {
     const { t } = useTranslation();
@@ -35,7 +36,15 @@ const HeroSection = () => {
             >
                 {/* Headline */}
                 <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight animate-fade-in-up delay-100 whitespace-nowrap">
-                    {t('hero.im')} <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-indigo-500">Geetha Sandesh</span>
+                    {t('hero.im')}
+                    <GradientText
+                        colors={["#ef4444", "#f97316", "#eab308", "#ef4444"]}
+                        animationSpeed={3}
+                        showBorder={false}
+                        className="inline-block"
+                    >
+                        Geetha Sandesh
+                    </GradientText>
                 </h1>
 
                 <div className="text-3xl md:text-5xl font-medium text-gray-300 space-y-2 mb-8 animate-fade-in-up delay-200">

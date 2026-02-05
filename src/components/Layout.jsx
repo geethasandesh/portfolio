@@ -1,4 +1,5 @@
 import React from 'react';
+import FloatingLines from './FloatingLines';
 
 
 const Layout = ({ children }) => {
@@ -8,11 +9,19 @@ const Layout = ({ children }) => {
 
             {/* Abstract Background Mesh */}
             {/* Simple Black Background */}
-            <div className="fixed inset-0 z-0 overflow-hidden bg-black">
-                {/* Optional: You can add the subtle gradient/mesh back here if 'simple black' feels too empty, 
-                    but adhering to 'simple black bg' request for now. 
-                    If purely black is too harsh, we can re-add the mesh. 
-                    For now, creating just a black void. */}
+            {/* Simple Black Background with Floating Lines */}
+            <div className="fixed inset-0 z-0 overflow-hidden">
+                <FloatingLines
+                    enabledWaves={["top", "middle", "bottom"]}
+                    lineCount={5}
+                    lineDistance={5}
+                    bendRadius={5}
+                    bendStrength={-0.5}
+                    interactive={true}
+                    parallax={true}
+                    mixBlendMode="normal"
+                    linesGradient={["#e947f5", "#2f4ba2"]}
+                />
             </div>
 
             {/* Main Content Wrapper - pointer-events-none to let accumulated space pass through, but children will need auto if interactive */}
