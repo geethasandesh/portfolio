@@ -13,10 +13,11 @@ function App() {
   return (
     <Layout>
       {/* Right Content Area (Now first in DOM for Left placement) */}
-      <div id="scroll-container" className="flex-1 lg:max-w-[75%] lg:h-full lg:overflow-y-auto no-scrollbar scroll-smooth pointer-events-auto">
+      <div id="scroll-container" className="flex-1 lg:max-w-[75%] lg:h-full lg:overflow-y-auto no-scrollbar scroll-smooth pointer-events-auto overflow-x-hidden max-w-full min-w-0">
         <Navbar />
-        <div id="content" className="p-4 md:p-8 lg:p-12 space-y-20 pb-20">
+        <div id="content" className="p-4 md:p-8 lg:p-12 space-y-20 pb-20 overflow-x-hidden">
           <HeroSection />
+          <Sidebar className="lg:hidden" />
           <div id="projects">
             <Projects />
           </div>
@@ -29,8 +30,8 @@ function App() {
         </div>
       </div>
 
-      {/* Right fixed sidebar (Now second in DOM for Right placement) */}
-      <Sidebar />
+      {/* Desktop sidebar */}
+      <Sidebar className="hidden lg:flex" />
     </Layout>
   );
 }

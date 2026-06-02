@@ -13,7 +13,7 @@ const HeroSection = () => {
     };
 
     return (
-        <div id="home" className="min-h-[90vh] flex flex-col justify-center px-4 md:px-12">
+        <div id="home" className="min-h-[90vh] flex flex-col justify-center px-4 md:px-12 max-w-full overflow-x-hidden">
 
             {/* Badge */}
             <div className="mb-8 animate-fade-in-up">
@@ -35,7 +35,7 @@ const HeroSection = () => {
                 className={`transition-all duration-300 ${isHovering ? 'cursor-none' : ''}`}
             >
                 {/* Headline */}
-                <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight animate-fade-in-up delay-100 whitespace-nowrap">
+                <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-6 tracking-tight animate-fade-in-up delay-100 break-words">
                     {t('hero.im')}
                     <GradientText
                         colors={["#ef4444", "#f97316", "#eab308", "#ef4444"]}
@@ -47,7 +47,7 @@ const HeroSection = () => {
                     </GradientText>
                 </h1>
 
-                <div className="text-3xl md:text-5xl font-medium text-gray-300 space-y-2 mb-8 animate-fade-in-up delay-200">
+                <div className="text-2xl sm:text-3xl md:text-5xl font-medium text-gray-300 space-y-2 mb-8 animate-fade-in-up delay-200">
                     <p>{t('hero.role1')}</p>
                     <p>{t('hero.role2')}</p>
                 </div>

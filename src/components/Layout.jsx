@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
             </div>
 
             {/* Main Content Wrapper - pointer-events-none to let accumulated space pass through, but children will need auto if interactive */}
-            <div className="relative z-10 flex flex-col lg:flex-row min-h-screen lg:h-screen lg:overflow-hidden pointer-events-none">
+            <div className="relative z-10 flex flex-col lg:flex-row min-h-screen lg:h-screen lg:overflow-hidden pointer-events-none max-w-full overflow-x-hidden min-w-0">
                 {children}
             </div>
         </div>
