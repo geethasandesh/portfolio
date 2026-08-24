@@ -1,0 +1,202 @@
+{
+  "profile": {
+    "name": "Geetha Sandesh",
+    "image": "/images/profile.jpg",
+    "location": "Hyderabad, Telangana",
+    "linkedin": "https://www.linkedin.com/in/geetha-sandesh-nomula-591186259/",
+    "github": "https://github.com/geethasandesh",
+    "instagram": "https://www.instagram.com/zeroograavity?igsh=MWl4dmE5dXB0cTM5dg%3D%3D&utm_source=qr",
+    "resume": "/resume.pdf"
+  },
+  "hero": {
+    "badge": "Say Hi",
+    "badgeLink": "https://www.linkedin.com/in/geetha-sandesh-nomula-591186259/",
+    "role1": "Software Developer",
+    "role2": "AI & ML Engineer",
+    "description": "AI & ML Engineer and results-driven Software Developer with a strong foundation in JavaScript, React, React Native, and Node.js. Passionate about developing scalable web and mobile applications and building modern UI/UX interfaces."
+  },
+  "projects": {
+    "badge": "Projects",
+    "title": "Check out my featured projects",
+    "categories": [
+      {
+        "id": "ai_ml",
+        "label": "AI & Machine Learning",
+        "projects": [
+          {
+            "id": "vcr",
+            "title": "Vehicle License Plate Recognition",
+            "description": "ML-based system to detect and track license plates in video frames. Solves the challenge of identifying vehicles from moving platforms using Computer Vision.",
+            "tags": ["Python", "OpenCV", "Machine Learning"],
+            "link": "",
+            "image": "/images/projects/vcr.jpg"
+          },
+          {
+            "id": "dailytools",
+            "title": "Daily Tools - AI Services",
+            "description": "Web services hub powered by backend AI models and Python scripts. Provides various online tools for productivity and automation.",
+            "tags": ["Python", "AI Models", "Railway", "React"],
+            "link": "https://dailytools1.vercel.app/",
+            "image": "/images/projects/dailytools.png"
+          }
+        ]
+      },
+      {
+        "id": "web",
+        "label": "Web Development",
+        "projects": [
+          {
+            "id": "tpl",
+            "title": "The Powder Legacy",
+            "description": "Full-stack e-commerce platform for organic powders. Features smooth animations, Razorpay payment integration, and a separate admin dashboard.",
+            "tags": ["React", "Supabase", "Tailwind", "Razorpay"],
+            "link": "https://www.thepowderlegacy.in/",
+            "image": "/images/projects/tpl.png"
+          },
+          {
+            "id": "gold",
+            "title": "Gold Center App",
+            "description": "Business management app for gold shops. Handles live rates, staff management, and complex gold making calculations with billing.",
+            "tags": ["React", "Firebase", "Logic & Math"],
+            "link": "https://goldrush-one.vercel.app/",
+            "image": "/images/projects/gold.png"
+          },
+          {
+            "id": "skl",
+            "title": "Skull Engine Studio",
+            "description": "Immersive service website for a marketing and animation studio. Features themed sections to match different service vibes.",
+            "tags": ["React", "Tailwind CSS", "EmailJS"],
+            "link": "https://www.skullenginestudio.in/",
+            "image": "/images/projects/skl.png"
+          }
+        ]
+      },
+      {
+        "id": "mobile",
+        "label": "Mobile Development",
+        "projects": [
+          {
+            "id": "farmcart",
+            "title": "Farm Cart",
+            "description": "Direct-to-consumer marketplace app connecting farmers with buyers for fresh organic produce. Bridges the gap between source and table.",
+            "tags": ["React Native", "Expo Go", "Firebase"],
+            "link": "https://github.com/geethasandesh/farmcart",
+            "image": "/images/projects/farmkart.png"
+          },
+          {
+            "id": "sangeeth",
+            "title": "Sangeeth Music",
+            "description": "Personalized music streaming application. Allows users to manage playlists and stream songs seamlessly via Firebase.",
+            "tags": ["React Native", "Expo Go", "Firebase"],
+            "link": "https://github.com/geethasandesh/sangeeth",
+            "image": "/images/projects/sangeeth.png"
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "badge": "Experience",
+    "title": "Professional Journey",
+    "items": [
+      {
+        "id": "assoc_dev",
+        "role": "Associate Software Developer",
+        "company": "Artihcus Global Private Limited",
+        "period": "June 2025 - Present",
+        "summary": "Promoted to full-time Software Engineer following successful completion of internship, recognized for strong technical contribution and problem-solving skills.",
+        "achievements": [
+          "Developed 'Artifact', a scalable internal documentation tool using React and Node.js with Firebase integration.",
+          "Collaborated with design and backend teams to implement scalable, secure, and maintainable systems.",
+          "Integrated machine learning modules for internal tools, combining AI with business systems.",
+          "Developing packaging application for space optimization and logistics efficiency."
+        ],
+        "link": "https://artihcus.com/",
+        "images": [
+          "/images/experience/artihcus11.jpg",
+          "/images/experience/artihcus2.jpg",
+          "/images/experience/artihcus3.jpg"
+        ]
+      },
+      {
+        "id": "intern",
+        "role": "Intern",
+        "company": "Artihcus Global",
+        "period": "Oct 2024 - June 2025",
+        "summary": "Gained hands-on experience applying AI/ML concepts to real-world challenges and revamped the company's digital presence.",
+        "achievements": [
+          "Represented Arthicus Global at the National AI Summit organized by HYSEA on Feb 11, 2025, at Novotel, Hyderabad.",
+          "Revamped company's official website implementing scalable architecture using React and Firebase.",
+          "Integrated Warehouse Management functionality with AI solutions.",
+          "Learnt SAP Basics and applied them to understanding enterprise workflows."
+        ],
+        "link": "https://artihcus.com/",
+        "images": [
+          "/images/experience/artihcusintern1.jpg",
+          "/images/experience/artihcusintern2.jpg"
+        ]
+      },
+      {
+        "id": "cofounder",
+        "role": "Co-Founder",
+        "company": "Grahmind",
+        "period": "Present",
+        "summary": "Leading the product vision and development of Grahmind, focusing on AI-driven solutions and market strategy.",
+        "achievements": [
+          "Co-founded Grahmind to provide innovative AI solutions.",
+          "Spearheading the development of the company's core products and services."
+        ],
+        "link": "https://grahmind.com",
+        "images": ["/images/experience/grahmind.png"]
+      }
+    ]
+  },
+  "skills": {
+    "badge": "Skills",
+    "title": "Technical Proficiency",
+    "items": [
+      { "name": "Python", "icon": "python" },
+      { "name": "Java", "icon": "java" },
+      { "name": "JavaScript", "icon": "javascript" },
+      { "name": "HTML", "icon": "html" },
+      { "name": "CSS", "icon": "css" },
+      { "name": "C", "icon": "c" },
+      { "name": "React / Native", "icon": "react" },
+      { "name": "Expo Go", "icon": "expo" },
+      { "name": "Node.js", "icon": "nodejs" },
+      { "name": "Express.js", "icon": "express" },
+      { "name": "MongoDB", "icon": "mongodb" },
+      { "name": "Tailwind CSS", "icon": "tailwind" },
+      { "name": "Firebase", "icon": "firebase" },
+      { "name": "Supabase", "icon": "supabase" },
+      { "name": "n8n", "icon": "n8n" },
+      { "name": "Git", "icon": "git" },
+      { "name": "GitHub", "icon": "github" },
+      { "name": "VS Code", "icon": "vscode" },
+      { "name": "Postman", "icon": "postman" },
+      { "name": "Figma", "icon": "figma" },
+      { "name": "Vercel", "icon": "vercel" }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "id": "btech",
+        "degree": "B-Tech in Computer Science (AI & ML Specialization)",
+        "institution": "Malla Reddy University",
+        "location": "Hyderabad, Telangana",
+        "period": "Sep 2021 – June 2025",
+        "score": "85%"
+      },
+      {
+        "id": "inter",
+        "degree": "Higher Secondary Education",
+        "institution": "RJC Junior College",
+        "location": "Khammam, Telangana",
+        "period": "2020 – 2021",
+        "score": "84%"
+      }
+    ]
+  }
+}

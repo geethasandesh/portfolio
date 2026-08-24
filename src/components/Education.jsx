@@ -1,29 +1,17 @@
 import React from 'react';
-
-const educationData = [
-    {
-        degree: "B-Tech in Computer Science (AI & ML Specialization)",
-        institution: "Malla Reddy University",
-        location: "Hyderabad, Telangana",
-        period: "Sep 2021 – June 2025",
-        score: "85%"
-    },
-    {
-        degree: "Higher Secondary Education",
-        institution: "RJC Junior College",
-        location: "Khammam, Telangana",
-        period: "2020 – 2021",
-        score: "84%"
-    }
-];
+import { useContent } from '../context/ContentContext';
 
 const Education = () => {
+    const { content } = useContent();
+    const { education } = content;
+    const items = education.items || [];
+
     return (
         <div className="py-20" id="education">
-            <h2 className="text-3xl font-bold mb-10 text-center">Education</h2>
+            <h2 className="text-3xl font-bold mb-10 text-center">{education.title || 'Education'}</h2>
             <div className="max-w-3xl mx-auto space-y-8">
-                {educationData.map((edu, index) => (
-                    <div key={index} className="bg-white/5 backdrop-blur-sm border border-white/60 rounded-xl p-6 hover:bg-white/10 transition-colors flex flex-col md:flex-row justify-between items-start md:items-center">
+                {items.map((edu) => (
+                    <div key={edu.id} className="bg-white/5 backdrop-blur-sm border border-white/60 rounded-xl p-6 hover:bg-white/10 transition-colors flex flex-col md:flex-row justify-between items-start md:items-center">
                         <div>
                             <h3 className="text-xl font-bold text-white mb-2">{edu.degree}</h3>
                             <p className="text-blue-300 font-medium mb-1">{edu.institution}</p>

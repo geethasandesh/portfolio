@@ -1,4 +1,9 @@
 {
+    "functions": {
+        "api/content.js": {
+            "includeFiles": "public/content.json"
+        }
+    },
     "rewrites": [
         {
             "source": "/api/(.*)",
