@@ -103,6 +103,39 @@
     },
     "sidebar": {
         "specialization": "Spezialisierung",
-        "basedIn": "Wohnhaft in"
+        "basedIn": "Wohnhaft in",
+        "location": "Hyderabad, Telangana"
+    },
+    "education": {
+        "title": "Ausbildung",
+        "items": {
+            "btech": {
+                "degree": "B-Tech in Informatik (Spezialisierung KI & ML)",
+                "institution": "Malla Reddy University",
+                "location": "Hyderabad, Telangana",
+                "period": "Sep 2021 – Juni 2025"
+            },
+            "inter": {
+                "degree": "Höhere Sekundarschulbildung",
+                "institution": "RJC Junior College",
+                "location": "Khammam, Telangana",
+                "period": "2020 – 2021"
+            }
+        }
+    },
+    "contact": {
+        "title": "Lassen Sie uns zusammenarbeiten",
+        "subtitle": "Haben Sie ein Projekt? Ich bin immer offen für neue Möglichkeiten.",
+        "name": "Name",
+        "email": "E-Mail",
+        "messageLabel": "Ihre Nachricht an mich?",
+        "namePlaceholder": "Max Mustermann",
+        "emailPlaceholder": "max@example.com",
+        "messagePlaceholder": "Sie können alles beschreiben...",
+        "submit": "Nachricht senden",
+        "sending": "Senden...",
+        "success": "Nachricht erfolgreich gesendet!",
+        "error": "Nachricht konnte nicht gesendet werden.",
+        "errorRetry": "Ein Fehler ist aufgetreten. Bitte erneut versuchen."
     }
 }

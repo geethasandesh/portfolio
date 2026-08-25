@@ -25,13 +25,13 @@ const Contact = () => {
             const result = await response.json();
 
             if (response.ok) {
-                setStatus({ type: 'success', msg: 'Message sent successfully!' });
+                setStatus({ type: 'success', msg: t('contact.success') });
                 setFormData({ name: '', email: '', message: '' });
             } else {
-                setStatus({ type: 'error', msg: result.message || 'Failed to send message.' });
+                setStatus({ type: 'error', msg: result.message || t('contact.error') });
             }
         } catch (error) {
-            setStatus({ type: 'error', msg: 'An error occurred. Please try again.' });
+            setStatus({ type: 'error', msg: t('contact.errorRetry') });
         } finally {
             setIsSubmitting(false);
         }
@@ -92,7 +92,7 @@ const Contact = () => {
                         disabled={isSubmitting}
                         className="w-full bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold py-3 px-6 rounded-lg hover:opacity-90 transition-opacity shadow-lg shadow-blue-500/25 disabled:opacity-50 disabled:cursor-not-allowed"
                     >
-                        {isSubmitting ? 'Sending...' : t('contact.submit')}
+                        {isSubmitting ? t('contact.sending') : t('contact.submit')}
                     </button>
                 </form>
             </div>

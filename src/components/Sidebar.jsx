@@ -1,10 +1,10 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import { useContent } from '../context/ContentContext';
+import { useLocalizedText } from '../lib/useLocalizedText';
 
 const Sidebar = ({ className = '' }) => {
-    const { t } = useTranslation();
+    const { t, tx } = useLocalizedText();
     const { content } = useContent();
     const { profile, hero } = content;
 
@@ -26,13 +26,13 @@ const Sidebar = ({ className = '' }) => {
                 <div className="w-full max-w-full text-left space-y-4 px-1">
                     <div>
                         <p className="text-gray-400 text-sm mb-1">{t('sidebar.specialization')}:</p>
-                        <p className="font-semibold text-white">{hero.role1}</p>
-                        <p className="font-semibold text-white">{hero.role2}</p>
+                        <p className="font-semibold text-white">{tx('hero.role1', hero.role1)}</p>
+                        <p className="font-semibold text-white">{tx('hero.role2', hero.role2)}</p>
                     </div>
                     <div className="space-y-3">
                         <div>
                             <p className="text-gray-400 text-sm mb-1">{t('sidebar.basedIn')}:</p>
-                            <p className="font-semibold text-white">{profile.location}</p>
+                            <p className="font-semibold text-white">{tx('sidebar.location', profile.location)}</p>
                         </div>
                         <div className="flex gap-3 text-gray-300">
                             {profile.instagram && (

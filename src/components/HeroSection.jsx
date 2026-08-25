@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import GradientText from './GradientText';
 import { useContent } from '../context/ContentContext';
+import { useLocalizedText } from '../lib/useLocalizedText';
 
 const HeroSection = () => {
-    const { t } = useTranslation();
+    const { t, tx } = useLocalizedText();
     const { content } = useContent();
     const { profile, hero } = content;
     const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
@@ -24,7 +24,7 @@ const HeroSection = () => {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-6 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-sm md:text-base font-medium text-gray-200 hover:bg-white/10 transition-colors"
                 >
-                    {hero.badge || t('hero.badge')} <span className="animate-wave">👋</span>
+                    {tx('hero.badge', hero.badge)} <span className="animate-wave">👋</span>
                 </a>
             </div>
 
@@ -47,12 +47,12 @@ const HeroSection = () => {
                 </h1>
 
                 <div className="text-2xl sm:text-3xl md:text-5xl font-medium text-gray-300 space-y-2 mb-8 animate-fade-in-up delay-200">
-                    <p>{hero.role1}</p>
-                    <p>{hero.role2}</p>
+                    <p>{tx('hero.role1', hero.role1)}</p>
+                    <p>{tx('hero.role2', hero.role2)}</p>
                 </div>
 
                 <p className="text-gray-400 max-w-2xl mb-12 text-lg leading-relaxed animate-fade-in-up delay-200">
-                    {hero.description}
+                    {tx('hero.description', hero.description)}
                 </p>
             </div>
 

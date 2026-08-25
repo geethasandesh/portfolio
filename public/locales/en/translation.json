@@ -103,7 +103,25 @@
     },
     "sidebar": {
         "specialization": "Specialization",
-        "basedIn": "Based in"
+        "basedIn": "Based in",
+        "location": "Hyderabad, Telangana"
+    },
+    "education": {
+        "title": "Education",
+        "items": {
+            "btech": {
+                "degree": "B-Tech in Computer Science (AI & ML Specialization)",
+                "institution": "Malla Reddy University",
+                "location": "Hyderabad, Telangana",
+                "period": "Sep 2021 – June 2025"
+            },
+            "inter": {
+                "degree": "Higher Secondary Education",
+                "institution": "RJC Junior College",
+                "location": "Khammam, Telangana",
+                "period": "2020 – 2021"
+            }
+        }
     },
     "contact": {
         "title": "Let's Work Together",
@@ -114,6 +132,10 @@
         "namePlaceholder": "John Doe",
         "emailPlaceholder": "john@example.com",
         "messagePlaceholder": "You can describe a lot, I can read it all...",
-        "submit": "Send Message"
+        "submit": "Send Message",
+        "sending": "Sending...",
+        "success": "Message sent successfully!",
+        "error": "Failed to send message.",
+        "errorRetry": "An error occurred. Please try again."
     }
 }

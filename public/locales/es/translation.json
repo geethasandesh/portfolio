@@ -103,6 +103,39 @@
     },
     "sidebar": {
         "specialization": "Especialización",
-        "basedIn": "Basado en"
+        "basedIn": "Basado en",
+        "location": "Hyderabad, Telangana"
+    },
+    "education": {
+        "title": "Educación",
+        "items": {
+            "btech": {
+                "degree": "B-Tech en Ciencias de la Computación (especialización en IA y ML)",
+                "institution": "Malla Reddy University",
+                "location": "Hyderabad, Telangana",
+                "period": "Sep 2021 – Junio 2025"
+            },
+            "inter": {
+                "degree": "Educación secundaria superior",
+                "institution": "RJC Junior College",
+                "location": "Khammam, Telangana",
+                "period": "2020 – 2021"
+            }
+        }
+    },
+    "contact": {
+        "title": "Trabajemos juntos",
+        "subtitle": "¿Tienes un proyecto? Siempre estoy abierto a nuevas oportunidades.",
+        "name": "Nombre",
+        "email": "Correo",
+        "messageLabel": "¿Tu mensaje para mí?",
+        "namePlaceholder": "Juan Pérez",
+        "emailPlaceholder": "juan@example.com",
+        "messagePlaceholder": "Puedes describirlo con detalle...",
+        "submit": "Enviar mensaje",
+        "sending": "Enviando...",
+        "success": "¡Mensaje enviado con éxito!",
+        "error": "No se pudo enviar el mensaje.",
+        "errorRetry": "Ocurrió un error. Inténtalo de nuevo."
     }
 }

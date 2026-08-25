@@ -1,10 +1,10 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 import { useContent } from '../context/ContentContext';
 import { getSkillIcon } from '../lib/skillIcons';
+import { useLocalizedText } from '../lib/useLocalizedText';
 
 const Skills = () => {
-    const { t } = useTranslation();
+    const { tx } = useLocalizedText();
     const { content } = useContent();
     const { skills } = content;
     const items = skills.items || [];
@@ -13,10 +13,10 @@ const Skills = () => {
         <div className="py-20" id="skills">
             <div className="mb-16">
                 <div className="inline-block px-4 py-1.5 mb-4 border border-white/60 rounded-full bg-white/5 backdrop-blur-sm text-sm font-medium text-gray-300">
-                    {skills.badge || t('skills.badge')}
+                    {tx('skills.badge', skills.badge)}
                 </div>
                 <h2 className="text-4xl md:text-5xl font-bold text-white tracking-tight">
-                    {skills.title || t('skills.title')}
+                    {tx('skills.title', skills.title)}
                 </h2>
             </div>
 

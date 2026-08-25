@@ -103,6 +103,39 @@
     },
     "sidebar": {
         "specialization": "Spécialisation",
-        "basedIn": "Basé à"
+        "basedIn": "Basé à",
+        "location": "Hyderabad, Telangana"
+    },
+    "education": {
+        "title": "Éducation",
+        "items": {
+            "btech": {
+                "degree": "B-Tech en informatique (spécialisation IA & ML)",
+                "institution": "Malla Reddy University",
+                "location": "Hyderabad, Telangana",
+                "period": "Sept 2021 – Juin 2025"
+            },
+            "inter": {
+                "degree": "Enseignement secondaire supérieur",
+                "institution": "RJC Junior College",
+                "location": "Khammam, Telangana",
+                "period": "2020 – 2021"
+            }
+        }
+    },
+    "contact": {
+        "title": "Travaillons ensemble",
+        "subtitle": "Un projet en tête ? Je suis toujours ouvert à de nouvelles opportunités.",
+        "name": "Nom",
+        "email": "E-mail",
+        "messageLabel": "Votre message pour moi ?",
+        "namePlaceholder": "Jean Dupont",
+        "emailPlaceholder": "jean@example.com",
+        "messagePlaceholder": "Vous pouvez tout décrire...",
+        "submit": "Envoyer le message",
+        "sending": "Envoi...",
+        "success": "Message envoyé avec succès !",
+        "error": "Échec de l'envoi du message.",
+        "errorRetry": "Une erreur s'est produite. Veuillez réessayer."
     }
 }
