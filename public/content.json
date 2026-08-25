@@ -130,6 +130,21 @@
     "title": "Professional Journey",
     "items": [
       {
+        "id": "cofounder",
+        "role": "Co-Founder",
+        "company": "Grahmind",
+        "period": "Present",
+        "summary": "Leading the product vision and development of Grahmind, focusing on AI-driven solutions and market strategy.",
+        "achievements": [
+          "Co-founded Grahmind to provide innovative AI solutions.",
+          "Spearheading the development of the company's core products and services."
+        ],
+        "link": "https://grahmind.com",
+        "images": [
+          "/images/experience/grahmind.png"
+        ]
+      },
+      {
         "id": "assoc_dev",
         "role": "Associate Software Developer",
         "company": "Artihcus Global Private Limited",
@@ -164,21 +179,6 @@
         "images": [
           "/images/experience/artihcusintern1.jpg",
           "/images/experience/artihcusintern2.jpg"
-        ]
-      },
-      {
-        "id": "cofounder",
-        "role": "Co-Founder",
-        "company": "Grahmind",
-        "period": "Present",
-        "summary": "Leading the product vision and development of Grahmind, focusing on AI-driven solutions and market strategy.",
-        "achievements": [
-          "Co-founded Grahmind to provide innovative AI solutions.",
-          "Spearheading the development of the company's core products and services."
-        ],
-        "link": "https://grahmind.com",
-        "images": [
-          "/images/experience/grahmind.png"
         ]
       }
     ]
@@ -276,6 +276,14 @@
   "education": {
     "title": "Education",
     "items": [
+      {
+        "id": "edu-d3590658-66df-4627-82d6-d670d5bf742f",
+        "degree": "Masters in Data Science ",
+        "institution": "Uninvesity of Europe Applied Sciences",
+        "location": "Potsdam,Germany",
+        "period": "Present ",
+        "score": ""
+      },
       {
         "id": "btech",
         "degree": "B-Tech in Computer Science (AI & ML Specialization)",
